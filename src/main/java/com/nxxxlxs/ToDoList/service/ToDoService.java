@@ -4,7 +4,6 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
 import com.nxxxlxs.ToDoList.dto.ToDoDto;
-import com.nxxxlxs.ToDoList.enums.ToDoStatus;
 
 public interface ToDoService {
 	

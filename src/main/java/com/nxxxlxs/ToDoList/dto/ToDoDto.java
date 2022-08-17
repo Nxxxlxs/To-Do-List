@@ -20,4 +20,30 @@ public class ToDoDto {
 	private Boolean completa;
 	@DateTimeFormat(pattern = "yyyy/MM/dd")
 	private LocalDate prazo;
+	public Long getId() {
+		return id;
+	}
+	public void setId(Long id) {
+		this.id = id;
+	}
+	public String getDescricao() {
+		return descricao;
+	}
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+	public Boolean getCompleta() {
+		return completa;
+	}
+	public void setCompleta(Boolean completa) {
+		this.completa = completa;
+	}
+	public LocalDate getPrazo() {
+		return prazo;
+	}
+	public void setPrazo(LocalDate prazo) {
+		this.prazo = prazo;
+	}
+	
+	
 }

@@ -9,7 +9,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import com.nxxxlxs.ToDoList.dto.ToDoDto;
-import com.nxxxlxs.ToDoList.enums.ToDoStatus;
 import com.nxxxlxs.ToDoList.model.ToDo;
 import com.nxxxlxs.ToDoList.repository.ToDoRepository;
 import com.nxxxlxs.ToDoList.service.ToDoService;
